@@ -9,33 +9,118 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title> Glassy profile </title>
+    <title>calender </title>
 </head>
 
-<body class="bg-gray-400">
-      <main>
-        <div class="bg-blue-950 h-[360px] w-[200px] rounded-md mt-[135px] mx-auto content-center">
-             <div class="bg-gradient-to-bl from-blue-200 from-10% via-white via-30% to-green-200 to-90%  w-[300px] h-[300px] relative right-[50px] rounded-[1.2rem] top-[29px]">
-                   <span class="left-[235px] mt-[20px] top-[23px] relative">
-                    <div class="h-[4px] w-[26px] bg-blue-900  mb-[10px]  "></div>
-                    <div class="h-[4px] w-[26px] bg-blue-900 "></div>
-                   </span>
-                  <div class=" top-[25px] relative">
-                   <img src="./images/avatar.png" class="w-[65px] h-[65px] mx-auto" alt="">
+<body class="bg-blue-950 ">
+    <main class="h-[450px] w-[650px] relative flex top-[100px] bg-blue-950 mx-auto rounded-md shadow-2xl">
+        <div class="w-[400px] h-full px-[27px] bg">
+            <div class="flex gap-[15px] relative top-[30px]" >
+            <i class="fa-solid text-white py-[2px] px-[6px] fa-chevron-left border-[1px] rounded-full"></i>
+            <div class=" text-[15px] text-white">Febuary, 2017</div> <i class="fa-solid fa-chevron-right py-[2px] px-[6px] border-[1px] text-white rounded-full "></i></div>
+            <div class="days flex justify-between pt-[80px] pb-[10px] ">
+                <div class="day">sun</div>
+                <div class="day">mon</div>
+                <div class="day">tue</div>
+                <div class="day">wed</div>
+                <div class="day">thu</div>
+                <div class="day">fri</div>
+                <div class="day">sat</div>
+            </div>
+            <div class="numbers">
 
-                   <h2 class="font-bold text-[23px] text-blue-950 text-center pt-[15px] ">Daniel joffrion</h2>
-                   <p class="text-center text-gray-700 pt-[8px] pb-[10px] "><i class="fa-solid fa-location-dot"></i> Atlanta , GA.</p>
-                   <button class= "content-center ml-[95px] mt-[30px] rounded-full text-[15px] text-white bg-blue-900 py-[6px] px-[8px] font-bold">view content</button>
-                </div>
-             </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4 <div class="relative bottom-[17px]"><span class="w-[4px] h-[5px] text-[1.5rem] text-yellow-700 font-bold">.</span><span class="w-[4px] h-[5px] text-[1.5rem] text-green-700 font-bold">.</span><span class="w-[4px] h-[5px] text-[1.5rem] text-red-700 font-bold">.</span></div></div>
+                <div>5 <div class="relative bottom-[17px]"><span class="w-[4px] h-[5px] text-[1.5rem] text-green-700 font-bold">.</span><span class="w-[4px] h-[5px] text-[1.5rem] text-red-700 font-bold">.</span></div></div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div class="date">9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div>14</div>
+                <div>15</div>
+                <div>16</div>
+                <div>17</div>
+                <div>18</div>
+                <div>19</div>
+                <div>20 <div class="relative bottom-[17px]"><span class="w-[4px] h-[5px] text-[1.5rem] text-orange-700 font-bold">.</span><span class="w-[4px] h-[5px] text-[1.5rem] text-red-700 font-bold">.</span><span class="w-[4px] h-[5px] text-[1.5rem] text-yellow-700 font-bold">.</span></div></div>
+                <div>21</div>
+                <div>22</div>
+                <div>23</div>
+                <div>24</div>
+                <div>25</div>
+                <div>26</div>
+                <div>27</div>
+                <div>28</div>
 
-             
+            </div>
+
+            
+
+
         </div>
-      </main>
+
+        <div>
+           <div class="flex-col mx-auto">
+
+                <div class="relative bottom-[110px] left-[80px]">
+                    <h2 class="text-white text-[18px] ">TUESDAY</h2>
+                    <p class="text-white text-[15px] pl-[10px]">Feb, 19</p>
+                </div>
+                <div class="relative left-[51px] ">
+                <i class="fa-regular fa-calendar-days pb-[10px] pl-[30px] text-gray-500 text-[80px]"></i>
+                <p class="text-gray-500 font-bold ">No Events for today</p>
+                </div>
+                <button class="px-[30px] py-[5px] relative left-[52px] top-[110px] rounded-full bg-pink-500">ADD EVENT</button>
+            </div> 
+        </div>
+    </main>
 </body>
 
 <style>
+    main {
+        align-items: center;
+    }
+  .bg{
+    background-color: rgba(40, 40, 133, 0.836);
+  }
+    .day {
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 600;
+        font-size: 13px;
+    }
 
-   
+    .numbers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        font-size: 14px;
+        color: white;
+    }
+
+    .numbers div {
+        text-align: center;
+        width: 48px;
+        height: 48px;
+    }
+    .numbers .date{
+        width: 26px;
+        margin-left: 10px;
+        height: 26px;
+        border-radius: 50%;
+        background-color: rgb(250, 168, 182);
+    }
 </style>
+
 </html>
